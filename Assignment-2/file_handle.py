@@ -1,0 +1,8 @@
+fw = open('fifa.txt', 'w')
+fw.write('FIFA World Cup 2026\n')
+fw.write('Brazil - won 5 cups\n')
+fw.close()
+f = open('fifa.txt', 'r')
+content = f.read()
+print(content)
+f.close() 
